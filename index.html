@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Goldenn</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+       <svg width="255" height="255" viewBox="0 0 255 255" xmlns="http://www.w3.org/2000/svg">
+           <rect width="240" height="240" x="10" y="10" stroke="#000" stroke-width="1" fill="url(#first)" rx="4" ry="4"></rect>
+           <rect width="200" height="200" x="30" y="30" stroke="#000" stroke-width="1" fill="url(#first)" rx="4" ry="4"></rect>
+           <rect width="200" height="200" x="30" y="30" stroke="#000" stroke-width="1" fill="url(#third)" rx="4" ry="4"></rect>
+           <path fill="url(#first)" d="M 70 200 h 120 v -15 h-50 v -20 h 50 a 10 10 0 0 0 10 -10 v -85 a 10 10 0 0 0  -10 -10 h -120 a 10 10 0 0 0 -10 10 v 85 a 10 10 0 0 0 10 10 h 50 v 20 h-50 v15 Z" stroke-width="1" stroke="#000"></path>
+           <clipPath id="test">
+               <rect y="70" x="70" width="120" height="80" fill="url(#computer_fon_1)"></rect>
+           </clipPath>
+           <rect x="0" y="0" height="200" width="200" fill="#3D3D3D" clip-path="url(#test)"></rect>
+           <circle cx="190" cy="160" r="100" fill="black" clip-path="url(#test)"></circle>
+           <text x="30" y="25" fill="url(#first)" stroke="black" stroke-width=".5" style="font-size: 15px; text-transform: uppercase; font-weight: bold; font-family: sans-serif">HomeWork</text>
+           <text fill="white" style="font-family: sans-serif; font-weight: 700">
+               <textPath xlink:href="#bezie" startOffset="30" >IT-Academy</textPath>
+           </text>
+
+            <defs>
+                <linearGradient id="first" x1="0%" x2="100%" y1="0%" y2="100%">
+                    <stop offset="0%" stop-color="#ccc"></stop>
+                    <stop offset="50%" stop-color="#686868"></stop>
+                    <stop offset="100%" stop-color="#ccc"></stop>
+                </linearGradient>
+                <radialGradient id="sphere" fx="60%" fy="70%">
+                    <stop offset="0%" stop-color="#ccc"></stop>
+                    <stop offset="100" stop-color="#000"></stop>
+                </radialGradient>
+                <pattern id="third" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <circle r="5" cx="15" cy="5" fill="url(#sphere)"></circle>
+                    <circle r="5" cx="5" cy="15" fill="url(#sphere)"></circle>
+                </pattern>
+                <linearGradient id="computer_fon_1" x1="0%" x2="50%" y1="0%" y2="30%">
+                    <stop offset="0%" stop-color="#ccc"></stop>
+                    <stop offset="100%" color="#bfb083"></stop>
+                </linearGradient>
+                <linearGradient id="computer_fon_2" x1="40%" y1="30%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#fe652b"></stop>
+                    <stop offset="100%" stop-color="#11223c"></stop>
+                </linearGradient>
+                <path id="bezie" d="M72,126 C134,48 147,189 310,124 " ></path>
+            </defs>
+       </svg>
+    </body>
+</html>
